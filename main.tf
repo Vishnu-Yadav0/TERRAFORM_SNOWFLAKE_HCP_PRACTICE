@@ -19,6 +19,7 @@ terraform {
 provider "snowflake" {
 }
 
+
 module "ALL_USERS" {
   source = "./users"
   user_map = {
